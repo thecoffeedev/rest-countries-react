@@ -1,0 +1,68 @@
+body{
+    background-color: #FAEBD7;
+}
+.rmargin {
+  margin-right: 10px;
+}
+
+.s-elements {
+  padding: 5px;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+#search:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.card {
+  border: solid black 1px;
+  color: white;
+  margin: 8px;
+  display: inline-block;
+  width: 250px;
+  height: 350px;
+  border-radius: 8px;
+  background-image: linear-gradient(to left, #388560, #90e2ba);
+}
+
+.flags {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 150px;
+  max-width: 100%;
+}
+
+.title {
+  background-color: black;
+  height: 43px;
+  padding: 5px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.pageButtons {
+  background-color: #f0ffff;
+  font-size: 1rem;
+  width: 40px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.rangeButtons {
+  background-color: #556464;
+  color: white;
+  margin: 5px;
+  font-size: 1rem;
+  width: 60px;
+  height: 30px;
+}
+
+.rangeButtons:hover {
+  cursor: pointer;
+}
+
+.pageButtons:hover {
+  cursor: pointer;
+}
